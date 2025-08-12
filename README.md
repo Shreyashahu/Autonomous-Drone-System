@@ -217,9 +217,3 @@ c.visualize(drawing_image)
 
 - `boxes, scores, labels = c.predict_with_graph_loaded_model(processed_image, scale)`: returns you the boxes, scores and labels of the objects found (in our case labels are just used to do binary classification so there are only two labels.)
 - Each item of box has an associated score, so `boxes[0]` co-relates with `scores[0]` and so on, depending on the score, you can say whether its a drone or not, after experimenting, I've figured that `0.5` is a good threshold value for tolerance.
-
-## Results
-
-Prototyped in  [MoveHack](http://pib.gov.in/newsite/PrintRelease.aspx?relid=181379)  - Was selected as top 10 overall solutions across all challenge themes among  [7,500 individuals and 3,000 teams](https://www.thehindubusinessline.com/info-tech/7500-individuals-register-for-movehack-niti-aayogs-global-mobility-hackathon/article24736986.ece) that globally competed for Hackathon.
-
-Won the cash prize of ₹10,00,000 and received an invitation to attend the  [Global Mobility Summit 2018](http://movesummit.in/about.php)  at Vigyan Bhawan, Delhi by NITI AAYOG to meet major CEOs across automobiles, aviation, mobility organisations and receive the award by Prime Minister of India, Narendra Modi.
